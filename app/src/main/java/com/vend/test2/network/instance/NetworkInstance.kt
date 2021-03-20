@@ -15,9 +15,6 @@ object NetworkInstance {
 
     fun getInstance(): NetworkClient? {
 
-        val httpL = HttpLoggingInterceptor()
-        httpL.level = HttpLoggingInterceptor.Level.HEADERS
-
         val httpLogger = HttpLoggingInterceptor().apply {
             level = HttpLoggingInterceptor.Level.BODY
         }
