@@ -46,7 +46,6 @@ class HomeActivity : AppCompatActivity(), HomeContract.View {
     }
 
     override fun onSuccess(data: CarTemplateResponse) {
-        displayToast("$data")
         homeAdapter.addAdvertisement(data.data.caradvetisement as ArrayList<Caradvetisement>)
     }
 

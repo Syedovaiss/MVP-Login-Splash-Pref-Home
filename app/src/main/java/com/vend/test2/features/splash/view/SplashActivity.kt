@@ -59,6 +59,7 @@ class SplashActivity : AppCompatActivity(), SplashContracts.View {
 
     override fun onFailure(message: String?) {
         displayToast(message!!)
+        finish()
     }
 
     @SuppressLint("CommitPrefEdits")

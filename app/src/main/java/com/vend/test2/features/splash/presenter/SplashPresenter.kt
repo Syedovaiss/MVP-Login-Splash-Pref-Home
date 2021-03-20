@@ -25,7 +25,7 @@ class SplashPresenter(private val view: SplashContracts.View) : SplashContracts.
                         view.onSuccess(response.body())
 
                     } else {
-                        view.onFailure(response.errorBody().toString())
+                        view.onFailure(response.message().toString())
                     }
 
                 }

@@ -14,7 +14,6 @@
         android:ems="10"
         android:hint="@string/you_example_com"
         android:inputType="textEmailAddress"
-        android:text="waris.techxcape@gmail.com"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -25,7 +24,6 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
         android:ems="10"
-        android:text="Aptech1@3"
         android:hint="@string/password_hint"
         android:inputType="textPassword"
         app:layout_constraintLeft_toLeftOf="parent"
