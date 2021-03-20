@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">test2</string>
+    <string name="you_example_com">you@example.com</string>
+    <string name="password_hint">*****************</string>
+    <string name="login">Login</string>
+
+    <string name="empty_value">%s can\'t be empty</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+</resources>
